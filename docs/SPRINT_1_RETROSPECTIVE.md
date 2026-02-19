@@ -5,7 +5,7 @@
 
 ---
 
-## What Went Well 👍
+## What Went Well 
 
 1. **Clear Planning Paid Off**
    - Having detailed user stories with acceptance criteria made implementation straightforward
@@ -27,7 +27,7 @@
 
 ---
 
-## What Didn't Go Well 👎
+## What Didn't Go Well 
 
 1. **Git Authentication Issues**
    - Encountered credential conflicts when pushing to GitHub
@@ -65,7 +65,7 @@
 
 ---
 
-## Key Learnings 💡
+## Key Learnings 
 
 1. **Agile Planning Works**
    - Breaking work into user stories with clear acceptance criteria made it easy to know when "done" was done
