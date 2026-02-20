@@ -59,7 +59,7 @@
 
 ---
 
-## Key Learnings 💡
+## Key Learnings 
 
 ### About Agile Practices
 

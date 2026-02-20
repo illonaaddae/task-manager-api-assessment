@@ -13,10 +13,10 @@
 **Story Points:** 3
 
 **Acceptance Criteria Met:**
-- ✅ API endpoint POST `/tasks` accepts title (required) and description (optional)
-- ✅ System returns created task with unique ID and timestamp
-- ✅ Title must be a non-empty string
-- ✅ Invalid requests (missing title) return 400 error with message
+-  API endpoint POST `/tasks` accepts title (required) and description (optional)
+- System returns created task with unique ID and timestamp
+-  Title must be a non-empty string
+   Invalid requests (missing title) return 400 error with message
 
 **Demo:**
 ```bash
@@ -40,13 +40,13 @@ curl -X POST http://localhost:3000/tasks \
 
 ---
 
-### US-2: List All Tasks ✅
+### US-2: List All Tasks 
 **Story Points:** 2
 
 **Acceptance Criteria Met:**
-- ✅ API endpoint GET `/tasks` returns array of all tasks
-- ✅ Returns empty array `[]` if no tasks exist
-- ✅ Each task includes id, title, description, completed status, priority, and timestamps
+-  API endpoint GET `/tasks` returns array of all tasks
+-  Returns empty array `[]` if no tasks exist
+-  Each task includes id, title, description, completed status, priority, and timestamps
 
 **Demo:**
 ```bash
@@ -70,13 +70,13 @@ curl http://localhost:3000/tasks
 
 ---
 
-### US-3: View Single Task ✅
+### US-3: View Single Task 
 **Story Points:** 2
 
 **Acceptance Criteria Met:**
-- ✅ API endpoint GET `/tasks/:id` returns single task object
-- ✅ Returns 404 error if task with given ID does not exist
-- ✅ Response includes all task fields
+-  API endpoint GET `/tasks/:id` returns single task object
+-  Returns 404 error if task with given ID does not exist
+-  Response includes all task fields
 
 **Demo:**
 ```bash
