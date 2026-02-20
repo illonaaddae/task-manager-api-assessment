@@ -13,10 +13,10 @@
 **Story Points:** 3
 
 **Acceptance Criteria Met:**
--  API endpoint POST `/tasks` accepts title (required) and description (optional)
-- System returns created task with unique ID and timestamp
--  Title must be a non-empty string
-   Invalid requests (missing title) return 400 error with message
+- ✅ API endpoint POST `/tasks` accepts title (required) and description (optional)
+- ✅ System returns created task with unique ID and timestamp
+- ✅ Title must be a non-empty string
+- ✅ Invalid requests (missing title) return 400 error with message
 
 **Demo:**
 ```bash
