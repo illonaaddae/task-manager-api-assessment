@@ -13,10 +13,10 @@
 **Story Points:** 3
 
 **Acceptance Criteria Met:**
-- ✅ API endpoint POST `/tasks` accepts title (required) and description (optional)
-- ✅ System returns created task with unique ID and timestamp
-- ✅ Title must be a non-empty string
-- ✅ Invalid requests (missing title) return 400 error with message
+- API endpoint POST `/tasks` accepts title (required) and description (optional)
+- System returns created task with unique ID and timestamp
+-  Title must be a non-empty string
+-  Invalid requests (missing title) return 400 error with message
 
 **Demo:**
 ```bash
@@ -126,28 +126,7 @@ curl http://localhost:3000/tasks/999
 - Code coverage: 91%+
 
 **Test Results:**
-```
-PASS  tests/tasks.test.js
-  Task API
-    POST /tasks
-      ✓ should create a task with title and description
-      ✓ should create a task with only title (description optional)
-      ✓ should create a task with custom priority
-      ✓ should return 400 if title is missing
-      ✓ should return 400 if title is empty string
-      ✓ should return 400 for invalid priority
-    GET /tasks
-      ✓ should return empty array when no tasks exist
-      ✓ should return all tasks
-      ✓ should return tasks with all required fields
-    GET /tasks/:id
-      ✓ should return a task by ID
-      ✓ should return 404 for non-existent task
-      ✓ should return 400 for invalid task ID
-
-Test Suites: 1 passed, 1 total
-Tests:       21 passed, 21 total
-```
+![Test Result](/src/Test-results.png)
 
 ### Version Control 
 **Commit History (Incremental Delivery):**

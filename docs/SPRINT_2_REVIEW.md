@@ -106,13 +106,7 @@ All HTTP requests are now logged with:
 
 ## Sprint 2 Commit History
 
-```
-ecf3061 Enhance health endpoint with monitoring details
-32470bd Add request logging middleware
-22a145d Add logging to task controller operations
-156f325 Add structured logger utility
-57e2187 Add Sprint 1 Review and Retrospective documents
-```
+![Commit History](/src/commit-history.png)
 
 ---
 
